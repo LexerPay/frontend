@@ -1,0 +1,58 @@
+.resource-wrapper {
+  overflow-x: auto;
+}
+
+.resource-wrapper::-webkit-scrollbar {
+  max-width: 5px !important;
+}
+
+.resource-wrapper::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.resource-wrapper::-webkit-scrollbar-thumb {
+  background-color: #31302e97;
+  border-radius: 100px;
+  max-width: 10px;
+}
+
+.tx-ytd-sales span {
+  color: #00CBD875;
+}
+.tx-qtr-sales span {
+  color: #1E00D875;
+}
+.tx-inventory span {
+  color: #7900D875;
+}
+.tx-yoy-growth span {
+  color: #d8c200d8;
+}
+.stat-add-report {
+  color: rgb(15, 15, 15);
+}
+.stat-1 .stat-add-report {
+  background-color: #00CBD875;
+}
+.stat-2 .stat-add-report {
+  background-color: #1E00D875;
+}
+.stat-3 .stat-add-report {
+  background-color: #7900D875;
+}
+.stat-4 .stat-add-report {
+  background-color: #D8C20075;
+}
+
+.stat-add-report small.tx-bold {
+  padding: 0px 4px;
+  border: 2px solid;
+  border-radius: 100%;
+  cursor: default;
+}
+
+/* All reports table */
+.all-reports-tr th {
+  text-transform: capitalize !important;
+}

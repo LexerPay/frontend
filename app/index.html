@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Twitter -->
+  <meta name="twitter:site" content="@themepixels">
+  <meta name="twitter:creator" content="@themepixels">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bracket">
+  <meta name="twitter:description" content="Premium Quality and Responsive UI for Dashboard.">
+  <meta name="twitter:image" content="../../../bracket/img/bracket-social.html">
+
+  <!-- Facebook -->
+  <meta property="og:url" content="http://themepixels.me/bracket">
+  <meta property="og:title" content="Bracket">
+  <meta property="og:description" content="Premium Quality and Responsive UI for Dashboard.">
+
+  <meta property="og:image" content="../../../bracket/img/bracket-social.html">
+  <meta property="og:image:secure_url" content="../../../bracket/img/bracket-social.html">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="600">
+
+  <!-- Meta -->
+  <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
+  <meta name="author" content="ThemePixels">
+
+  <title>Overdrive - Dashboard</title>
+
+  <!-- vendor css -->
+  <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+  <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+  <link href="../lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+  <link href="../lib/rickshaw/rickshaw.min.css" rel="stylesheet">
+  <link href="../lib/chartist/chartist.css" rel="stylesheet">
+
+  <!-- Bracket CSS -->
+  <link rel="stylesheet" href="../css/bracket.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <!-- ########## START: LEFT PANEL ########## -->
+  <div class="br-logo"><a href="#"><img src="../img/ghlaLogo.png" alt="" width="40" height="40"></a></div>
+  <div class="br-sideleft overflow-y-auto">
+    <label class="sidebar-label pd-x-15 mg-t-20">Navigation</label>
+    <div class="br-sideleft-menu">
+      <a href="index.html" class="br-menu-link active">
+        <div class="br-menu-item">
+          <ion-icon name="home-outline" class="menu-item-icon tx-22"></ion-icon>
+          <span class="menu-item-label">Dashboard</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="reports.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <ion-icon name="bar-chart-outline" class="menu-item-icon tx-22"></ion-icon>
+          <span class="menu-item-label">Reports</span>
+        </div><!-- menu-item -->
+      </a><!-- br-menu-link -->
+      <a href="all-reports.html" class="br-menu-link">
+        <div class="br-menu-item">
+          <ion-icon name="flower-outline" class="menu-item-icon tx-22"></ion-icon>
+          <span class="menu-item-label">Support</span>
+        </div>
+      </a>
+    </div>
+
+    <br>
+  </div><!-- br-sideleft -->
+  <!-- ########## END: LEFT PANEL ########## -->
+
+  <!-- ########## START: HEAD PANEL ########## -->
+  <div class="br-header">
+    <div class="br-header-left">
+      <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href="#"><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
+    </div><!-- br-header-left -->
+    <div class="br-header-right">
+      <nav class="nav">
+        <div class="dropdown mg-r-40">
+          <a href="#" class="nav-link nav-link-profile" data-toggle="dropdown">
+            <img src="../img/img1.jpg" class="wd-32 rounded-circle" alt="">
+            <span class="logged-name hidden-md-down">Katherine</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-header wd-200">
+            <ul class="list-unstyled user-profile-nav">
+              <li><a href="#"><i class="icon ion-ios-person"></i> Edit Profile</a></li>
+              <li><a href="#"><i class="icon ion-ios-gear"></i> Settings</a></li>
+              <li><a href="#"><i class="icon ion-ios-download"></i> Downloads</a></li>
+              <li><a href="#"><i class="icon ion-ios-star"></i> Favorites</a></li>
+              <li><a href="#"><i class="icon ion-ios-folder"></i> Collections</a></li>
+              <li><a href="#"><i class="icon ion-power"></i> Sign Out</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div><!-- br-header -->
+
+  <div class="br-mainpanel">
+    <div class="pd-30">
+      <h4 class="tx-gray-800 mg-b-5">Dashboard</h4>
+      <!-- <p class="mg-b-0">Do big things with Bracket, the responsive bootstrap 4 admin template.</p> -->
+    </div><!-- d-flex -->
+
+    <div class="br-pagebody mg-t-5 pd-x-30">
+      <div class="row row-sm">
+        <div class="col-sm-6 col-xl-3 stat-1">
+          <div class="bg-white rounded overflow-hidden">
+            <div class="pd-15 d-flex align-items-center">
+              <ion-icon name="calendar-outline" class="tx-30 lh-0 op-7"></ion-icon>
+              <div class="mg-l-15">
+                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10">YTD Sales (gross)</p>
+                <p class="tx-24 tx-ytd-sales tx-lato tx-bold mg-b-2 lh-1"><span class="stat-value">$4,975</span><small> (USD)</small></p>
+              </div>
+            </div>
+            <div class="stat-add-report d-flex justify-content-between align-items-center pd-x-15 pd-y-4 bg-br-primary">
+              <small>Create report</small>
+              <small class="tx-bold" role="button">+</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3 mg-t-20 mg-sm-t-0 stat-2">
+          <div class="bg-white rounded overflow-hidden">
+            <div class="pd-15 d-flex align-items-center">
+              <ion-icon name="cash-outline" class="tx-30 lh-0 op-7"></ion-icon>
+              <div class="mg-l-15">
+                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10">Current Quarter Sales (gross)</p>
+                <p class="tx-24 tx-qtr-sales tx-lato tx-bold mg-b-2 lh-1"><span class="stat-value">$4,975</span><small> (USD)</small></p>
+              </div>
+            </div>
+            <div class="stat-add-report d-flex justify-content-between align-items-center pd-x-15 pd-y-4 bg-br-primary">
+              <small>Create report</small>
+              <small class="tx-bold" role="button">+</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3 mg-t-20 mg-xl-t-0 stat-3">
+          <div class="bg-white rounded overflow-hidden">
+            <div class="pd-15 d-flex align-items-center">
+              <ion-icon name="storefront-outline" class="tx-30 lh-0 op-7"></ion-icon>
+              <div class="mg-l-15">
+                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10">Inventory</p>
+                <p class="tx-24 tx-inventory tx-lato tx-bold mg-b-2 lh-1"><span class="stat-value">2,975</span><small> unit</small></p>
+              </div>
+            </div>
+            <div class="stat-add-report d-flex justify-content-between align-items-center pd-x-15 pd-y-4 bg-br-primary">
+              <small>Create report</small>
+              <small class="tx-bold" role="button">+</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3 mg-t-20 mg-xl-t-0 stat-4">
+          <div class="bg-white rounded overflow-hidden">
+            <div class="pd-15 d-flex align-items-center">
+              <ion-icon name="globe-outline" class="tx-30 lh-0 op-7"></ion-icon>
+              <div class="mg-l-15">
+                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase mg-b-10">YoY Growth</p>
+                <p class="tx-24 tx-lato tx-bold mg-b-2 lh-1 tx-yoy-growth"><span class="stat-value">46%</span></p>
+              </div>
+            </div>
+            <div class="stat-add-report d-flex justify-content-between align-items-center pd-x-15 pd-y-4">
+              <small>Create report</small>
+              <small class="tx-bold" role="button">+</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-sm mg-t-20">
+        <div class="col-6">
+          <div class="card pd-0 bd-0 shadow-base">
+            <div class="pd-x-30 pd-t-30 pd-b-15">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Sales (USD)</h6>
+                </div>
+                <div class="tx-13">
+                  <p class="mg-b-0"><span class="square-8 rounded-circle bg-purple mg-r-10"></span>Last Updated 20 munites ago</p>
+                </div>
+              </div><!-- d-flex -->
+            </div>
+            <div class="pd-x-15 pd-b-15">
+              <div id="ch1" class="br-chartist br-chartist-2 ht-200 ht-sm-300"></div>
+            </div>
+          </div><!-- card -->
+        </div><!-- col-6 -->
+
+        <div class="col-6">
+          <div class="card pd-0 bd-0 shadow-base">
+            <div class="pd-x-30 pd-t-30 pd-b-15">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Added Inventory</h6>
+                </div>
+                <div class="tx-13">
+                  <p class="mg-b-0"><span class="square-8 rounded-circle bg-purple mg-r-10"></span>Last Updated 20 munites ago</p>
+                </div>
+              </div><!-- d-flex -->
+            </div>
+            <div class="pd-x-15 pd-b-15">
+              <div id="ch1" class="br-chartist br-chartist-2 ht-200 ht-sm-300"></div>
+            </div>
+          </div><!-- card -->
+        </div>
+      </div><!-- row -->
+
+      <!-- Resources -->
+      <div class="mg-t-20">
+        <div class="card pd-y-30 bd-0 shadow-base">
+          <div class="pd-x-30 pd-b-15">
+            <div>
+              <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Resources</h6>
+            </div>
+          </div>
+          <div class="">
+            <div class="mg-x-30 d-flex perfect-scrollbar resource-wrapper">
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_2bqXqr4GeCg.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published: 01/02/2022</small>
+                </div>
+              </div>
+              <!-- Resource -->
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_ant0goCEx1w.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published: 01/02/2022</small>
+                </div>
+              </div>
+              <!-- Resource -->
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_aZ_MmSmAcjg.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published: 01/02/2022</small>
+                </div>
+              </div>
+              <!-- Resource -->
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_H-LIL57PHCc.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published on</small>
+                </div>
+              </div>
+              <!-- Resource -->
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_ant0goCEx1w.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published: 01/02/2022</small>
+                </div>
+              </div>
+              <!-- Resource -->
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_ant0goCEx1w.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published: 01/02/2022</small>
+                </div>
+              </div>
+              <!-- Resource -->
+              <div class="resource-content mg-b-20 mg-r-25">
+                <img src="../img/unsplash_ant0goCEx1w.png" alt="Resource Image" width="200" height="250">
+                <div class="resource-details">
+                  <small class="resource-name tx-14 tx-bold tx-success">Ryzen</small>
+                  <small class="resource-unit d-block">Unit sold: 450</small>
+                  <small class="resource-published d-block">Published: 01/02/2022</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- card -->
+      </div>
+
+    </div><!-- br-pagebody -->
+    <footer class="br-footer">
+      <div class="footer-left">
+        <div class="mg-b-2">
+          Copyright &copy; Ghana Library Authority. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </div><!-- br-mainpanel -->
+  <!-- ########## END: MAIN PANEL ########## -->
+<!-- Network Scripts -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script src="../lib/jquery/jquery.js"></script>
+  <script src="../lib/popper.js/popper.js"></script>
+  <script src="../lib/bootstrap/bootstrap.js"></script>
+  <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+  <script src="../lib/moment/moment.js"></script>
+  <script src="../lib/jquery-ui/jquery-ui.js"></script>
+  <script src="../lib/jquery-switchbutton/jquery.switchButton.js"></script>
+  <script src="../lib/peity/jquery.peity.js"></script>
+  <script src="../lib/chartist/chartist.js"></script>
+  <script src="../lib/jquery.sparkline.bower/jquery.sparkline.min.js"></script>
+  <script src="../lib/d3/d3.js"></script>
+  <script src="../lib/rickshaw/rickshaw.min.js"></script>
+
+  <script src="../js/bracket.js"></script>
+  <script src="../js/ResizeSensor.js"></script>
+  <script src="../js/dashboard.js"></script>
+  <script>
+    $(function () {
+      'use strict'
+
+      // FOR DEMO ONLY
+      // menu collapsed by default during first page load or refresh with screen
+      // having a size between 992px and 1299px. This is intended on this page only
+      // for better viewing of widgets demo.
+      $(window).resize(function () {
+        minimizeMenu();
+      });
+
+      minimizeMenu();
+
+      function minimizeMenu() {
+        if (window.matchMedia('(min-width: 992px)').matches && window.matchMedia('(max-width: 1299px)').matches) {
+          // show only the icons and hide left menu label by default
+          $('.menu-item-label,.menu-item-arrow').addClass('op-lg-0-force d-lg-none');
+          $('body').addClass('collapsed-menu');
+          $('.show-sub + .br-menu-sub').slideUp();
+        } else if (window.matchMedia('(min-width: 1300px)').matches && !$('body').hasClass('collapsed-menu')) {
+          $('.menu-item-label,.menu-item-arrow').removeClass('op-lg-0-force d-lg-none');
+          $('body').removeClass('collapsed-menu');
+          $('.show-sub + .br-menu-sub').slideDown();
+        }
+      }
+    });
+  </script>
+</body>
+</html>
